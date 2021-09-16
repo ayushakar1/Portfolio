@@ -19,10 +19,11 @@
     padding: 30px 0;
     /* background: crimson; */
     font-family: 'Ubuntu', sans-serif;
+    transition: all 0.2s ease;
 }
 
 .navbar.sticky{
-    padding: 30px 0;
+    padding: 15px 0;
      background: crimson; 
 }
 
@@ -40,6 +41,11 @@
 
 .navbar .logo a span{
     color: crimson;
+    transition: all 0.2s ease;
+}
+
+.navbar.sticky .logo a span{
+    color: rgb(0, 0, 0); 
 }
 
 .navbar .menu li{
@@ -57,6 +63,10 @@
 
 .navbar .menu li a:hover{
     color: crimson;
+}
+
+.navbar.sticky .menu li a:hover{
+    color: rgb(0, 0, 0);
 }
 
 /*Home section styling*/
