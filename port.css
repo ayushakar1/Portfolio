@@ -75,6 +75,7 @@
     color: #fff;
     font-size: 23px;
     cursor: pointer;
+    display: none;
 }
 
 
@@ -111,4 +112,38 @@
 .home .home-content .text-3 span{
     color: crimson;
     font-weight: 500;
+}
+
+
+/* Responsive Media Query */
+
+@media (max-width: 947px){
+    .max-width{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
 }
