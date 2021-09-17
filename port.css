@@ -69,6 +69,15 @@
     color: rgb(0, 0, 0);
 }
 
+/* Menu button styling */
+
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
 /*Home section styling*/
 
 .home{
