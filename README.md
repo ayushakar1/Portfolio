@@ -2,7 +2,7 @@
 My portfolio website
 
 The website is under construction.
-This will be my official Portfolio website
+This will be my official creative portfolio website.
 
 Made with Html, CSS and JS.
 
