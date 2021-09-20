@@ -150,6 +150,8 @@ section{
     height: 420px;
     width: 370px;
     object-fit: cover;
+    border-radius: 6px;
+
 }
 
 
