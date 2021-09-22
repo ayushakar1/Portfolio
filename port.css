@@ -141,11 +141,37 @@ section{
     font-family: 'Poppins', sans-serif;
 }
 .about .title{
-    text-align: center;
+    position: relative;
+   text-align: center;
    font-family: 'Ubuntu', sans-serif;
    font-size: 40px;
-   font-family: 500;
+   font-weight: 500;
+   margin-bottom: 60px;
+   padding-bottom: 20px;
 }
+.about .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%) ;
+}
+
+.about .title::after{
+    content: "Who am I";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    padding: 5px;
+    color:#9354dd;
+    background: #fff;
+    transform: translateX(-50%) ;
+}
+
 .about .about-content .left img{
     height: 420px;
     width: 370px;

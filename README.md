@@ -8,4 +8,4 @@ Made with Html, CSS and JS.
 
 This is how it looks like until now :
 
-<img src="Screenshot (40).png" width="100%">
+<img src="Screenshot.png" width="100%">
