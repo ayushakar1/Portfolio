@@ -17,7 +17,7 @@
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    /* background: crimson; */
+    z-index: 999;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.2s ease;
 }
