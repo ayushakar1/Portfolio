@@ -131,17 +131,13 @@
     color: #9354dd;
     background: none;
 }
-
-
-/* About section styling*/
+ 
+/* Same code for all sections */
 
 section{
     padding: 100px 0;
 }
-.about{
-    font-family: 'Poppins', sans-serif;
-}
-.about .title{
+section .title{
     position: relative;
    text-align: center;
    font-family: 'Ubuntu', sans-serif;
@@ -150,7 +146,8 @@ section{
    margin-bottom: 60px;
    padding-bottom: 20px;
 }
-.about .title::before{
+
+section .title::before{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -161,8 +158,8 @@ section{
     transform: translateX(-50%) ;
 }
 
-.about .title::after{
-    content: "Who am I";
+section .title::after{  
+
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -171,6 +168,18 @@ section{
     color:#9354dd;
     background: #fff;
     transform: translateX(-50%) ;
+}
+
+/* About section styling*/
+
+
+.about, .services{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.about .title::after{
+    content: "Who am I";
 }
 
 .about .about-content{
@@ -224,8 +233,13 @@ section{
     background: none;
 }
 
+/* Services section styling */
+.services{
+    color: #fff;
+}
 
-/* Responsive Media Query */
+
+/* ========================================Responsive Media Query================================== */
 
 @media (max-width: 1300px){
     .home .max-width{
