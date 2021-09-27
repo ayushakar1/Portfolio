@@ -294,7 +294,7 @@ section{
         max-width: 800px;
     }
     .about .about-content .column{
-        width: 50%;
+        width: 100%;
     }
     .about .about-content .left{
         display: flex;
