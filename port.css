@@ -234,8 +234,18 @@ section .title::after{
 }
 
 /* Services section styling */
+
+.services{
+    background: black;
+    color: #fff;
+}
+
+.services .title::before{
+    background: #fff;
+}
 .services .title::after{
     content: "What i provide";
+    background: black;
 }
 
 
