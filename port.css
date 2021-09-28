@@ -79,7 +79,7 @@
 }
 
 
-/*Home section styling*/
+/*========================Home section styling========================================*/
 
 .home{
     display: flex;
@@ -132,7 +132,7 @@
     background: none;
 }
  
-/* Same code for all sections */
+/*======================== Same code for all sections======================================= */
 
 section{
     padding: 100px 0;
@@ -172,7 +172,6 @@ section .title::after{
 
 /* About section styling*/
 
-
 .about, .services{
     font-family: 'Poppins', sans-serif;
 }
@@ -182,7 +181,8 @@ section .title::after{
     content: "Who am I";
 }
 
-.about .about-content{
+.about .about-content,
+.services .services-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -234,9 +234,10 @@ section .title::after{
 }
 
 /* Services section styling */
-.services{
-    color: #fff;
+.services .title::after{
+    content: "What i provide";
 }
+
 
 
 /* ========================================Responsive Media Query================================== */
