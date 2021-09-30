@@ -248,6 +248,49 @@ section .title::after{
     background: black;
 }
 
+.services .services-content .card{
+    background: #111;
+    width: calc(33% - 20px);
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .services-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.services .services-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.services .services-content .card:hover{
+    background: #9354dd;
+}
+.services .services-content .card:hover i{
+color: black;
+}
+.services .services-content .card i{
+    font-size: 30px;
+    color: #9354dd;
+    transition: color 0.3s ease;
+}
+
+.services .services-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+/* My Skills section design */
+
+.skills{}
+
+.skills .title::after{
+    content: "What I know";
+}
 
 
 /* ========================================Responsive Media Query================================== */
@@ -329,6 +372,10 @@ section .title::after{
     .about .about-content .right{
         flex : 100%;
     }
+    .services .services-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
    
 }
 
@@ -347,6 +394,9 @@ section .title::after{
     .home .home-content a{
         font-size: 20px;
         padding: 9px 23px;
+    }
+    .services .services-content .card{
+        width: 100%;
     }
 }
 
