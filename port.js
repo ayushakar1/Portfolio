@@ -15,4 +15,20 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+    // Typing animation
+
+    var typed = new Typed(".typing",{
+        strings: ["Developer","Designer","Blogger","Singer","Content Creater"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2",{
+        strings: ["Developer","Designer","Blogger","Singer","Content Creater"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
 });    

@@ -24,7 +24,8 @@
 
 .navbar.sticky{
     padding: 15px 0;
-     background: #9354dd; 
+    background: #9354dd; 
+    opacity: 0.98;
 }
 
 .navbar .max-width{
@@ -441,6 +442,7 @@ footer span a:hover{
         left: -100%;
         top: 0;
         background: #35125a;
+        opacity: 0.99;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
