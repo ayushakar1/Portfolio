@@ -6,6 +6,27 @@
   text-decoration: none; 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar style */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #d7c2f0;
+}
+::-webkit-scrollbar-thumb{
+    background: #9354dd;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #35125a;
+}
+
+
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -78,6 +99,7 @@
     cursor: pointer;
     display: none;
 }
+
 
 
 /*========================Home section styling========================================*/
