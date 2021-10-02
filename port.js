@@ -6,7 +6,21 @@ $(document).ready(function(){
         else{
             $('.navbar').removeClass("sticky");
         }
+        if(this.scroll > 500){
+            $('.scrollup-button').addClass("show"); 
+        }
+        else{
+            $('.scrollup-button').removeClass("show"); 
+        }
     })
+
+    // slide up script
+
+    $('.scrollup-button').click(function(){
+        $('html').animate({scrollTop: 0});
+         // removing smooth scroll on slide-up button click
+         $('html').css("scrollBehavior", "auto");
+    });
     
 
     //toggle menu/navbar script
