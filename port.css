@@ -100,34 +100,6 @@ html{
     display: none;
 }
 
-/* scroll up button */
-.scrollup-button{
-    position: fixed;
-    height: 45px;
-    width: 42px;
-    background-color: #9e5aec;
-    right: 30px;
-    bottom: 10px;
-    text-align: center;
-    line-height: 45px;
-    color: #fff;
-    z-index: 9999;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3 ease;
-}
-
-.scrollup-button .show{
-    bottom: 30px;
-    opacity: 1;
-    pointer-events: auto;
-}
-.scroll-up-btn:hover{
-    filter: brightness(90%);
-}
 
 
 /*========================Home section styling========================================*/
